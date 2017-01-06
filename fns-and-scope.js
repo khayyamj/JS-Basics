@@ -10,7 +10,7 @@ function isTyler(newName) {
       return true;
     }
     return false;
-
+}
 //////////////////PROBLEM 2////////////////////
 
 
@@ -21,7 +21,7 @@ function isTyler(newName) {
 function getName() {
     var promptName = prompt('Name');
     return promptName;
-  }
+}
 
 //////////////////PROBLEM 3////////////////////
 
@@ -33,7 +33,7 @@ function getName() {
   //Code Here
 function welcome() {
 
-    return ('Welcome, ' + getName());
+    return alert('Welcome, ' + getName());
   }
 
 //////////////////PROBLEM 4////////////////////
@@ -76,7 +76,7 @@ function myName() {
 
   //Code Here
 
-var newMyName = myName();
+var newMyName = myName;
 
 //Now alert the result of invoking newMyName
 
